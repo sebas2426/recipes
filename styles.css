@@ -1,0 +1,39 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:beige
+}
+
+header{
+    background-color:rgb(241, 212, 173);
+}
+
+h1{
+    text-align: center;
+    background-color: #e2d067ef;
+    color:rgb(255, 255, 255);
+    font-style: bold;
+}
+
+h2{
+    font-size: 30px;
+    background-color: #e2d067ef;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+}
+
+h3{
+    background-color: #e2d067ef;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.description-restaurant{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: auto;
+}
