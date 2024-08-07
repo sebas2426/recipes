@@ -1,24 +1,47 @@
+@font-face {
+    font-family: cursive-font;
+    src: url(./fonts/PlaywriteNZ-VariableFont_wght.ttf);
+}
+
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;font-family:'Times New Roman', Times, serif;
     background-color:beige
 }
 
+/*CSS for index.html*/
+.logo{
+    background-color: beige;
+    display: block;
+    width: 300px;
+    margin: 5px auto;
+}
+
 header{
+    height: 45px;
     background-color:rgb(241, 212, 173);
+    padding-top: 8px;
 }
 
 h1{
+    font-family: cursive-font, 'Times New Roman', Times, serif;
     text-align: center;
     background-color: #e2d067ef;
     color:rgb(255, 255, 255);
-    font-style: bold;
+    font-style:bold;
+    padding: 10px;
+    margin: 0 400px;
 }
 
 h2{
+    font-family: cursive-font, 'Times New Roman', Times, serif;
     font-size: 30px;
     background-color: #e2d067ef;
     color:rgb(255, 255, 255);
-    font-style: italic;
+    padding: 10px;
+    margin: 0 10px 10px 0;
 }
 
 h3{
@@ -29,11 +52,93 @@ h3{
 
 .description-restaurant{
     text-align: center;
+    font-size: 20px;
+    margin: 20px 0 25px;
 }
 
-img{
+.recipes-list a{
+    display: inline-block;
+    border: 2px solid coral;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.list1{
+    background-color:antiquewhite;
+    padding: 10px;
+    margin: 0 1020px 0 0;
+}
+button{
+    background-color:rgb(233, 227, 144);
+}
+
+.header{
+    background-color: rgb(241, 212, 173);
+    margin-left: 200px;
+    vertical-align: 60%;
+}
+
+a, img, .header-images{
+    background-color: rgb(241, 212, 173);
+}
+
+
+
+/*CSS for milanesas.html*/
+.milanesa-image{
     display: block;
-    margin: auto;
-    height: 300px;
-    width: auto;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.middle-title{
+    background-color:antiquewhite;
+    padding: 10px;
+    margin: 0 1250px 0 0;
+}
+
+.ingredients{
+    border: 2px solid rgb(194, 214, 83);
+    width: 100px;
+}
+
+
+
+/*CSS for hamburgers.html*/
+.hamburger-image{
+    display: block;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.middle-title-hamburger{
+    background-color:antiquewhite;
+    padding: 10px;
+    margin: 0 1250px 0 0;
+}
+
+.ingredients-hamburger{
+    border: 2px solid rgb(194, 214, 83);
+    width: 100px;
+}
+
+
+
+/*CSS for fries.html*/
+.fries-image{
+    display: block;
+    height: 450px;
+    width: 450px;
+    margin: 10px auto;
+}
+
+.middle-title-fries{
+    background-color:antiquewhite;
+    padding: 10px;
+    margin: 0 1250px 0 0;
+}
+
+.ingredients-fries{
+    border: 2px solid rgb(194, 214, 83);
+    width: 100px;
 }
